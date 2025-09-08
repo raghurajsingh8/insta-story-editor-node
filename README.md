@@ -86,14 +86,22 @@ Server stopped with code 1
 
 ____how to solve it ? 
 
-![Alt text](images/one.png)
+step by step run this two command in step 1 we get PID and then use it to terminate localhost:3000
 
+![Alt text](images/one.png)
+after this , npm start 
 ![Alt text](images/two.png)
+screen open 
 ![Alt text](images/three.png)
+you can upload photo 
 ![Alt text](images/four.png)
+you can add text stickers
 ![Alt text](images/five.png)
+you can change background colorurs
 ![Alt text](images/six.png)
+you can filter and have a song option 
 ![Alt text](images/seven.png)
+you can download the content as a final output
 ![Alt text](images/output.png)
 
 
