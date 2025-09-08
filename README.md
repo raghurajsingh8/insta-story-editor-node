@@ -37,3 +37,58 @@ The app auto-lists whatever you put in these folders.
 
 - Export is an image (no audio). If you need video export with audio, you'll need ffmpeg on a server or a WebAssembly approach.
 - Canvas uses modern `ctx.filter`; works on current Chrome/Edge/Firefox/Safari.
+
+
+
+output________________________________________________________________________________________________________________________
+case -1 npm start 
+and you get error 
+
+___________
+
+C:\Users\raghu\OneDrive\Desktop\insta-story-editor-node>npm start
+
+> story-editor@1.0.1 start
+> electron .
+
+
+Server Error: (node:3324) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/raghu/OneDrive/Desktop/insta-story-editor-node/server.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\raghu\OneDrive\Desktop\insta-story-editor-node\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Server Error: node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000      
+    at Server.setupListenHandle [as _listen2] (node:net:1907:16)
+    at listenInCluster (node:net:1964:12)
+    at Server.listen (node:net:2066:7)
+    at Function.listen (C:\Users\raghu\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/raghu/OneDrive/Desktop/insta-story-editor-node/server.js:39:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1943:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v22.11.0
+
+Server stopped with code 1
+
+____how to solve it ? 
+
+![Alt text](https://postimg.cc/14ZQ7Yc7)
+
+
+
+
+
