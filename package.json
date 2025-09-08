@@ -1,0 +1,32 @@
+{
+  "name": "story-editor",
+  "version": "1.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "asar": false,
+    "appId": "com.storyeditor.app",
+    "productName": "Story Editor",
+    "directories": {
+      "output": "dist"
+    },
+    
+    "files": [
+      "main.js",
+      "server.js",
+      "public//*",
+      "package.json",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.12"
+  }
+}
