@@ -86,7 +86,7 @@ Server stopped with code 1
 
 ____how to solve it ? 
 
-![Alt text](https://postimg.cc/14ZQ7Yc7)
+![Alt text](images/one.png)
 
 
 
