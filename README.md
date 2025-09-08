@@ -97,7 +97,3 @@ ____how to solve it ?
 ![Alt text](images/output.png)
 
 
-
-
-
-
