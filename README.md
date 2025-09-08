@@ -88,6 +88,15 @@ ____how to solve it ?
 
 ![Alt text](images/one.png)
 
+![Alt text](images/two.png)
+![Alt text](images/three.png)
+![Alt text](images/four.png)
+![Alt text](images/five.png)
+![Alt text](images/six.png)
+![Alt text](images/seven.png)
+![Alt text](images/output.png)
+
+
 
 
 
